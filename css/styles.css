@@ -35,6 +35,11 @@ span {
 
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .contacts {
     color: var(--SLATE, #434455);
     
