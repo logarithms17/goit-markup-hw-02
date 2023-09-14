@@ -9,10 +9,6 @@ li {
     list-style: none;
 }
 
-header, .section1, .section2, .section3{
-    margin: 0px 156px 0px 156px;
-}
-
 .webstudio {
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway;
@@ -66,12 +62,8 @@ a {
     /* Hero Image Section */
 
 .hero-image {
-    height: 600px;
     background-color: rgba(46, 47, 66, 1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 472px 0px 472px;
+    
 }
 
 main h1 {
@@ -84,8 +76,10 @@ main h1 {
         font-weight: 700;
         line-height: 60px;
         letter-spacing: 1.12px;
-        margin-top: 186px;
-        margin-bottom: 48px;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        margin: 0px;
 }
 
 button {
@@ -105,7 +99,6 @@ button {
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.64px;
-    margin-bottom: 188px;
     cursor: pointer;
 }
 
@@ -122,7 +115,6 @@ h3 {
         line-height: 24px;
         /* 120% */
         letter-spacing: 0.4px;
-        width: 264px;
 }
 
 .section1 p {
@@ -134,7 +126,6 @@ h3 {
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
-        width: 264px;
 }
 
     /* Section 2 */
@@ -142,11 +133,16 @@ h3 {
 .section2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .section2 li {
-    display: inline-block;
+    /* display: inline-block; */
+}
+
+.section2 h2 {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -155,12 +151,17 @@ h3 {
 .section3 {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        /* align-items: center;
+        text-align: center; */
+}
+
+.section3 h2 {
+    display: flex;
+    justify-content: center;
 }
 
 .section3 li {
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .section3 img {
@@ -172,7 +173,6 @@ h3 {
 
 footer {
     background: var(--NAVY-BLUE, #2E2F42);
-    padding-left: 156px;
 }
 
 footer a {
